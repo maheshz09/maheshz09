@@ -22,7 +22,7 @@
 
 ### 🐍 My GitHub Contributions Snake
 
-![GitHub Snake Light](https://raw.githubusercontent.com/maheshz09/maheshz09/output/github-snake.svg)
+![GitHub Snake Dark](https://raw.githubusercontent.com/maheshz09/maheshz09/output/github-snake-dark.svg)
 
 
 ---
