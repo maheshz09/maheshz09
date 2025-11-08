@@ -1,5 +1,12 @@
-# 💫 About Me:
-🌱 I’m currently learning K8s, Azure cloud, Helm, python<br>💬 Ask me about Devops stuff, YAML/Bash/Python scripting, CI/CD, Monitoring, AWS, Opensource tools, Devops projects<br>📫 How to reach me mahesh.pansareit@gmail.com
+💫 About Me:
+
+🚀 Passionate about Cloud, DevOps, and automation — I love building scalable, production-grade systems.
+🌱 Currently learning Golang & Python for cloud-native automation and tooling.
+💬 Ask me about DevOps, CI/CD, Kubernetes, Monitoring, AWS, Infrastructure as Code, GitOps, YAML/Bash/Python scripting, and Open Source tools.
+🧠 Preparing for advanced certifications in Kubernetes and Cloud Architecture.
+🧩 I enjoy solving real-world problems through automation, optimization, and clean architecture.
+🤝 Open to freelance DevOps projects, consulting, and collaborations — whether it’s setting up CI/CD pipelines, automating cloud infrastructure, or improving observability.
+📈 Actively building my own DevOps & Cloud venture: oncloudev.com
 
 
 ## 🌐 Socials:
