@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+  permissions:
+    contents: write
+
 jobs:
   build:
     name: Generate Snake
@@ -35,3 +38,4 @@ jobs:
           publish_branch: output
           publish_dir: ./dist
           commit_message: "Update Snake Game [skip ci]"
+
