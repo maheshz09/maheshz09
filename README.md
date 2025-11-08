@@ -19,4 +19,10 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=maheshz09&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=maheshz09&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+
+### 🐍 My GitHub Contributions Snake
+
+![GitHub Snake Light](https://raw.githubusercontent.com/maheshz09/maheshz09/output/github-snake.svg)
+
+
 ---
