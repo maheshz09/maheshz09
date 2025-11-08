@@ -2,19 +2,20 @@ name: Generate Snake Game 🐍
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # runs every day at midnight
+    - cron: "0 0 * * *" # runs every day at midnight UTC
   workflow_dispatch:
   push:
     branches:
       - main
 
-  permissions:
-    contents: write
+permissions:
+  contents: write  # critical for publishing to 'output' branch
 
 jobs:
   build:
     name: Generate Snake
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -31,11 +32,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push generated files to output branch
+      - name: Deploy Snake files to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
           publish_dir: ./dist
-          commit_message: "Update Snake Game [skip ci]"
-
+          commit_message: "Regenerate Snake Game files [skip ci]"
